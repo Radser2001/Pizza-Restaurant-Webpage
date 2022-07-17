@@ -74,6 +74,10 @@ ul li {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.hero-text>h1{
+  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
 
 .open-text {
   font-size: 30px;
