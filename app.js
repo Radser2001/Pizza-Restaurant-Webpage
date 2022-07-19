@@ -22,3 +22,10 @@ starterTab.addEventListener("click", function () {
   saladMenu.style.display = "none";
   pizzaMenu.style.display = "none";
 });
+
+
+
+function thanks(){
+  var fname = document.getElementById("name").value;
+  alert("Thank you " + fname + "!" );
+}

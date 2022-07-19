@@ -51,6 +51,10 @@ a:hover {
   background-color: #f0ffff;
   color: #000;
 }
+.see-menu{
+  transform: translateY(-10px);
+    transition: .2s all ease-in;
+}
 
 ul {
   display: flex;
@@ -95,7 +99,7 @@ ul li {
   color: #fff;
   padding: 10px;
   cursor: pointer;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; 
 }
 
 .see-menu:hover {
